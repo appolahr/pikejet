@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>pikeJet®️</title>
+	<link rel="icon" href="images/pkepng.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="pikejet" />
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="index.html"><img src="images/pke.png" style="width: 200px;height: 40px;"></img></a></h1>
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active"><a href="pikeJet.html">Acceuil</a></li>
+							<li><a href="Purchase.html">Acheter un Billet</a></li>
+							<li><a href="trip.html">Mes Réservations</a></li>
+							<li><a href="check-in.html">Enregistrement</a></li>
+							<li><a href="covid-19.html"><b>COVID-19</b></a></li>
+							<li><a href="covid-19.html"><b>Sign In</b></a></li>
+							<li><a href="covid-19.html"><b>Sign Up</b></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+				<div class="desc">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active">
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Aller-Retour</a>
+								      </li>
+								      <li role="presentation">
+								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Aller Simple</a>
+								      </li>
+								   </ul>
+
+								   <!-- Tab panes -->
+									<div class="tab-content">
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Départ de :</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Paris Roissy (CDG)"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Arrivée à :</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Londres Gatwick (LGW)"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Date du départ :</label>
+													<input type="text" class="form-control" id="date-start" placeholder="dd/mm/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Date du retour :</label>
+													<input type="text" class="form-control" id="date-end" placeholder="dd/mm/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Classe :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>Economy</option>
+														<option value="Economy">Economy</option>
+														<option value="Premium Economy">Premium Economy</option>
+														<option value="Première classe">Première classe</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adulte :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Enfant :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>0</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Rechercher les vols">
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="hotels">
+									 	<div class="row">
+											<div class="col-xxl-14 col-xs-12 mt">
+												<div class="input-field">
+													<label for="from">Départ de :</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Paris Roissy (CDG)"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Arrivée à :</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Londres Gatwick (LGW)"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Date du départ :</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Classe :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>Economy</option>
+														<option value="Economy">Economy</option>
+														<option value="Premium Economy">Premium Economy</option>
+														<option value="Première classe">Première classe</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adulte :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Enfant :</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>0</option>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Rechercher les vols">
+											</div>
+										</div>
+									 </div>
+									</div>
+
+								</div>
+							</div>
+							<div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									<h2><b>Découvrez Stuttgart</b></h2>
+									<h3>Partez à Stuttgart de Paris Charles de Gaulle</h3>
+									<span class="price">€99</span>
+									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<div id="fh5co-tours" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3><b>pikeJet®️ Destination-voyage</b></h3>
+						<p>Tous vos rêves ont une destination</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-11.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3><b>Amsterdam</b></h3>
+								<span>Pays-Bas</span>
+								<span class="price">€110</span>
+								<a class="btn btn-primary btn-outline" href="#">Réserver Maintenant <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-12.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3><b>Venise</b></h3>
+								<span>Italie</span>
+								<span class="price">€123</span>
+								<a class="btn btn-primary btn-outline" href="#">Réserver Maintenant <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-13.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3><b>Zurich</b></h3>
+								<span>Suisse</span>
+								<span class="price">€115</span>
+								<a class="btn btn-primary btn-outline" href="#">Réserver Maintenant <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center animate-box">
+						<p><a class="btn btn-primary btn-outline btn-lg" href="flight.html">Laissez-vous inspirer <i class="icon-arrow-right22"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="fh5co-destination">
+			<div class="tour-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<ul id="fh5co-destination-list" class="animate-box">
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Londres</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-2.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Berlin</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-3.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Rome</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-4.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Barcelone</b></h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-forth text-center" style="background-image: url(images/place-5.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Nice</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-half text-center">
+								<div class="title-bg">
+									<div class="case-studies-summary">
+										<h2><b>Nous connaissons vos envies</b></h2>
+										<span><a href="#">Voir Toutes les Destinations</a></span>
+									</div>
+								</div>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-6.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Paris</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-7.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Bruxelles</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-8.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Prague</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-9.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Budapest</b></h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-10.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2><b>Dublin</b></h2>
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3><b>Service client</b></h3>
+							<ul>
+								<li><a href="contact.html">Nous Contacter</a></li>
+								<li><a href="#">Remboursements</a></li>
+								<li><a href="#">Réclamations</a></li>
+								<li><a href="#">Demander une facture</a></li>
+								<li><a href="#">Passagers en situation de handicap</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3><b>Tout sur l'achat en ligne</b></h3>
+							<ul>
+								<li><a href="#">Frais de services et moyens de paiement</a></li>
+								<li><a href="#">pikeJet Shopping</a></li>
+								<li><a href="#">Pourquoi réserver son billet sur le site officiel pikeJet ?</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3><b>À propos de pikeJet</b></h3>
+							<ul>
+								<li><a href="#">pike Pass</a></li>
+								<li><a href="https://www.skyteam.com/en">SkyTeam</a></li>
+								<li><a href="#">Tous les sites pikejet.com</a></li>
+								<li><a href="#">Destination-voyage</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="https://twitter.com/pikejets"><i class="icon-twitter2"></i></a>
+								<a href="https://www.facebook.com/pikeJet"><i class="icon-facebook2"></i></a>
+								<a href="https://www.instagram.com/pikejetofficial/"><i class="icon-instagram"></i></a>
+							</p>
+							<p>© 2023 pikeGroup Ltd. All rights reserved.</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
